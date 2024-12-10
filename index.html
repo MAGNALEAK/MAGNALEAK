@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,87 @@
     <meta property="og:image" content="/img/MAGNALEAKOGP.webp" />
     <meta property="og:image:width" content="3840" />
     <meta property="og:image:height" content="2160" />
-    <link rel="stylesheet" href="/css/main.css">
+    <style>
+        @font-face {
+            font-family: "JetBrains Mono";
+            src: url("../fonts/variable/JetBrainsMono.ttf") format("truetype");
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "JetBrains Mono";
+            src: url("../fonts/variable/JetBrainsMono-Italic.ttf") format("truetype");
+            font-style: italic;
+        }
+
+        * {
+            box-sizing: border-box;
+            --text-red: #c7253e;
+            --background-yellow: #fabc3f;
+            font-family: "JetBrains Mono", monospace;
+        }
+
+        html {
+            background-color: var(--background-yellow);
+            color: var(--text-red);
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        body div.content {
+            margin: 2rem auto;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        h1,
+        p,
+        ul {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 8rem;
+            letter-spacing: .125rem;
+            font-weight: 900;
+        }
+
+        p,
+        ul {
+            font-size: 2rem;
+            line-height: 2.25rem;
+            letter-spacing: .0625rem;
+            font-weight: 900;
+            max-width: 640px;
+        }
+
+        ul {
+            list-style-type: "+";
+            padding-left: 1rem;
+            list-style-position: outside;
+        }
+
+        li {
+            margin: 0;
+            padding-left: .5rem;
+        }
+
+        p a,
+        p a:visited {
+            color: var(--text-red);
+            font-weight: 900;
+        }
+    </style>
     <title>MAGNALEAK2</title>
 </head>
+
 <body>
     <div class="content">
         <h1>MAGNALEAK2</h1>
@@ -26,7 +105,12 @@
         <p class="download"><a href="/downloads/MAGNALEAK2.torrent">TORRENT FILE</a></p>
         <br>
         <p>REGARDLESS OF HOW YOU DOWNLOAD, PLEASE USE THE TORRENT FILE TO SEED THE ZIP TO OTHERS.</p>
-        <p>YOU'LL NEED TO OPEN A PORT ON YOUR ROUTER AND SET THAT VALUE IN YOUR <a href="https://www.qbittorrent.org/download">TORRENT CLIENT</a>. HERE, WE'VE <a href="https://www.google.com/search?udm=14&q=port+forwarding+for+torrenting+with+qbittorrent+tutorial+2024">GOOGLED HOW TO DO THAT</a> FOR YOU.</p>
+        <p>YOU'LL NEED TO OPEN A PORT ON YOUR ROUTER AND SET THAT VALUE IN YOUR <a
+                href="https://www.qbittorrent.org/download">TORRENT CLIENT</a>. HERE, WE'VE <a
+                href="https://www.google.com/search?udm=14&q=port+forwarding+for+torrenting+with+qbittorrent+tutorial+2024">GOOGLED
+                HOW TO DO THAT</a> FOR YOU.</p>
+        <p>SHARE <a href="">THIS LINK</a> WITH OTHER FANS.</p>
     </div>
 </body>
+
 </html>
